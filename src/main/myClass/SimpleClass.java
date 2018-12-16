@@ -3,6 +3,7 @@ import java.util.Random;
 import java.lang.Class;
 
 
+
 public class SimpleClass {
 
     public static void main(String[] args) {
@@ -22,6 +23,7 @@ public class SimpleClass {
         SecondClass c = new SecondClass();
         System.out.println(c.getClass().getName());
         c.first();
+        System.out.println(c.second());
     }
 
     public static int firstint(int a) {

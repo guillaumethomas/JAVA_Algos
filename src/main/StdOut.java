@@ -7,6 +7,8 @@
  *
  ******************************************************************************/
 
+// package edu.princeton.cs.algs4;
+
 import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
 import java.io.UnsupportedEncodingException;
@@ -83,7 +85,7 @@ public final class StdOut {
     // don't instantiate
     private StdOut() { }
 
-    /**
+   /**
      * Closes standard output.
      * @deprecated Calling close() permanently disables standard output;
      *             subsequent calls to StdOut.println() or System.out.println()
@@ -94,14 +96,14 @@ public final class StdOut {
         out.close();
     }
 
-    /**
+   /**
      * Terminates the current line by printing the line-separator string.
      */
     public static void println() {
         out.println();
     }
 
-    /**
+   /**
      * Prints an object to this output stream and then terminates the line.
      *
      * @param x the object to print
@@ -110,7 +112,7 @@ public final class StdOut {
         out.println(x);
     }
 
-    /**
+   /**
      * Prints a boolean to standard output and then terminates the line.
      *
      * @param x the boolean to print
@@ -119,7 +121,7 @@ public final class StdOut {
         out.println(x);
     }
 
-    /**
+   /**
      * Prints a character to standard output and then terminates the line.
      *
      * @param x the character to print
@@ -128,7 +130,7 @@ public final class StdOut {
         out.println(x);
     }
 
-    /**
+   /**
      * Prints a double to standard output and then terminates the line.
      *
      * @param x the double to print
@@ -137,7 +139,7 @@ public final class StdOut {
         out.println(x);
     }
 
-    /**
+   /**
      * Prints an integer to standard output and then terminates the line.
      *
      * @param x the integer to print
@@ -146,7 +148,7 @@ public final class StdOut {
         out.println(x);
     }
 
-    /**
+   /**
      * Prints an integer to standard output and then terminates the line.
      *
      * @param x the integer to print
@@ -155,7 +157,7 @@ public final class StdOut {
         out.println(x);
     }
 
-    /**
+   /**
      * Prints a long to standard output and then terminates the line.
      *
      * @param x the long to print
@@ -164,7 +166,7 @@ public final class StdOut {
         out.println(x);
     }
 
-    /**
+   /**
      * Prints a short integer to standard output and then terminates the line.
      *
      * @param x the short to print
@@ -173,7 +175,7 @@ public final class StdOut {
         out.println(x);
     }
 
-    /**
+   /**
      * Prints a byte to standard output and then terminates the line.
      * <p>
      * To write binary data, see {@link BinaryStdOut}.
@@ -184,16 +186,16 @@ public final class StdOut {
         out.println(x);
     }
 
-    /**
+   /**
      * Flushes standard output.
      */
     public static void print() {
         out.flush();
     }
 
-    /**
+   /**
      * Prints an object to standard output and flushes standard output.
-     *
+     * 
      * @param x the object to print
      */
     public static void print(Object x) {
@@ -201,9 +203,9 @@ public final class StdOut {
         out.flush();
     }
 
-    /**
+   /**
      * Prints a boolean to standard output and flushes standard output.
-     *
+     * 
      * @param x the boolean to print
      */
     public static void print(boolean x) {
@@ -211,9 +213,9 @@ public final class StdOut {
         out.flush();
     }
 
-    /**
+   /**
      * Prints a character to standard output and flushes standard output.
-     *
+     * 
      * @param x the character to print
      */
     public static void print(char x) {
@@ -221,9 +223,9 @@ public final class StdOut {
         out.flush();
     }
 
-    /**
+   /**
      * Prints a double to standard output and flushes standard output.
-     *
+     * 
      * @param x the double to print
      */
     public static void print(double x) {
@@ -231,9 +233,9 @@ public final class StdOut {
         out.flush();
     }
 
-    /**
+   /**
      * Prints a float to standard output and flushes standard output.
-     *
+     * 
      * @param x the float to print
      */
     public static void print(float x) {
@@ -241,9 +243,9 @@ public final class StdOut {
         out.flush();
     }
 
-    /**
+   /**
      * Prints an integer to standard output and flushes standard output.
-     *
+     * 
      * @param x the integer to print
      */
     public static void print(int x) {
@@ -251,9 +253,9 @@ public final class StdOut {
         out.flush();
     }
 
-    /**
+   /**
      * Prints a long integer to standard output and flushes standard output.
-     *
+     * 
      * @param x the long integer to print
      */
     public static void print(long x) {
@@ -261,9 +263,9 @@ public final class StdOut {
         out.flush();
     }
 
-    /**
+   /**
      * Prints a short integer to standard output and flushes standard output.
-     *
+     * 
      * @param x the short integer to print
      */
     public static void print(short x) {
@@ -271,7 +273,7 @@ public final class StdOut {
         out.flush();
     }
 
-    /**
+   /**
      * Prints a byte to standard output and flushes standard output.
      *
      * @param x the byte to print
@@ -281,7 +283,7 @@ public final class StdOut {
         out.flush();
     }
 
-    /**
+   /**
      * Prints a formatted string to standard output, using the specified format
      * string and arguments, and then flushes standard output.
      *
@@ -294,7 +296,7 @@ public final class StdOut {
         out.flush();
     }
 
-    /**
+   /**
      * Prints a formatted string to standard output, using the locale and
      * the specified format string and arguments; then flushes standard output.
      *
@@ -307,7 +309,7 @@ public final class StdOut {
         out.flush();
     }
 
-    /**
+   /**
      * Unit tests some of the methods in {@code StdOut}.
      *
      * @param args the command-line arguments
@@ -322,3 +324,27 @@ public final class StdOut {
     }
 
 }
+
+/******************************************************************************
+ *  Copyright 2002-2018, Robert Sedgewick and Kevin Wayne.
+ *
+ *  This file is part of algs4.jar, which accompanies the textbook
+ *
+ *      Algorithms, 4th edition by Robert Sedgewick and Kevin Wayne,
+ *      Addison-Wesley Professional, 2011, ISBN 0-321-57351-X.
+ *      http://algs4.cs.princeton.edu
+ *
+ *
+ *  algs4.jar is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ *
+ *  algs4.jar is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with algs4.jar.  If not, see http://www.gnu.org/licenses.
+ ******************************************************************************/

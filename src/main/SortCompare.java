@@ -1,10 +1,3 @@
-SortCompare.java
-
-
-        Below is the syntax highlighted version of SortCompare.java from §2.1 Elementary Sorts.
-
-
-
 /******************************************************************************
  *  Compilation:  javac SortCompare.java
  *  Execution:    java SortCompare alg1 alg2 n trials
@@ -96,6 +89,3 @@ public class SortCompare {
     }
 }
 
-
-Copyright © 2000–2017, Robert Sedgewick and Kevin Wayne.
-        Last updated: Fri Oct 20 12:50:46 EDT 2017.
